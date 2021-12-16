@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Score" representedClassName="Score" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="mode" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Score_Swap" representedClassName="Score_Swap" syncable="YES" codeGenerationType="class">
+        <attribute name="puzzleSolved" optional="YES" attributeType="Binary"/>
+        <attribute name="timeStamp" optional="YES" attributeType="String"/>
+        <attribute name="totalMoves" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Score" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Score_Swap" positionX="-63" positionY="9" width="128" height="74"/>
+    </elements>
+</model>
