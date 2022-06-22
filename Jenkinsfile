@@ -14,6 +14,7 @@ pipeline {
 
             steps{
                 echo 'testing the app'
+                sh 'ls'
             }
         }
     
